@@ -1,14 +1,12 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from 'next/link'
+import React from 'react'
 
 export default function F4() {
   return (
     <>
-      <h1>F4 page</h1>
-      <div>
-        <Link href={'/f1/f3'}>F3</Link>
-        <Link href={'/about'}>About</Link>
-      </div>
+        <div>F4 Page</div>
+        <Link href={'/f1/f3'} className='text-blue-500'>F3 Page</Link>
+        <Link href={'/about'} className='text-blue-500'>Aboue Page</Link>
     </>
-  );
+  )
 }

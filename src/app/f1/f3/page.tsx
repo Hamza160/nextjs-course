@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function F3() {
+export default function F3Page() {
   return (
-    <div>F3 Page</div>
+    <div>F3Page</div>
   )
 }
